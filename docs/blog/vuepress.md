@@ -16,7 +16,10 @@ meta:
 <!-- more -->
 
 
+
+
 # 📚<span data-type="color" style="color:rgb(65, 70, 75)">前言</span>
+
 
 ---
 
@@ -26,6 +29,7 @@ meta:
 
 # 🚩目标
 
+
 ---
 
 
@@ -33,6 +37,7 @@ meta:
 
 
 # 📖开发流程
+
 
 ---
 
@@ -46,38 +51,60 @@ meta:
 
 # 🏙️项目结构
 
+
 ---
 
 
 ```powershell
-├─docs 
-│  ├─.vuepress       // 用于存放全局的配置、组件、静态资源等
-│  │  ├─dist         // 打包生成的目录
-│  │  │  ├─assets
-│  │  │  │  ├─css
-│  │  │  │  ├─img
-│  │  │  │  └─js
-│  │  │  │
-│  │  │  └─config.js  // 博客配置入口文件
-│  │  │  
-│  │  └─styles//可选
-│  └─README.md        // 对应项目的 / 路由  也就是主页面
-│  
-├─.gitignore
-│  
-├─delay.sh            // 自动化打包部署脚本
-│  
-├─depoly.sh           // push文件到仓库上
-│  
-├─package-lock.json
-│  
-├─package.json
+│  .gitignore
+│  delay.sh
+│  package.json
+│  yarn.lock
 │
-└─node_modules
+└─docs
+    │  README.md
+    │
+    ├─.vuepress
+    │  │  config.js
+    │  │
+    │  ├─dist
+    │  │  │  404.html
+    │  │  │  CNAME
+    │  │  │  index.html
+    │  │  │  logo.png
+    │  │  │  service-worker.js
+    │  │  │
+    │  │  ├─assets
+    │  │  │  ├─css
+    │  │  │  │      1.styles.23daee9f.css
+    │  │  │  │      2.styles.50882dc4.css
+    │  │  │  │      styles.94f2108d.css
+    │  │  │  │
+    │  │  │  ├─img
+    │  │  │  │      search.83621669.svg
+    │  │  │  │
+    │  │  │  └─js
+    │  │  │          1.23daee9f.js
+    │  │  │          2.50882dc4.js
+    │  │  │          3.9e4928b6.js
+    │  │  │          4.9d5c184f.js
+    │  │  │          5.005ea06b.js
+    │  │  │          app.94f2108d.js
+    │  │  │
+    │  │  └─blog
+    │  │          js.html
+    │  │          vuepress.html
+    │  │
+    │  └─public
+    │          logo.png
+    │
+    └─blog
+            vuepress.md
 ```
 
 
 # 🛠️初始化项目结构
+
 
 ---
 
@@ -117,6 +144,7 @@ mkdir .vuepress && echo '' > .vuepress/config.js
 
 
 # ⏱️ 开发过程
+
 
 ---
 
@@ -316,6 +344,7 @@ meta:
 关于更多主题请[参考](https://github.com/search?q=vuepress-theme)
 # 🔫项目部署
 
+
 ---
 
 
@@ -344,6 +373,7 @@ git commit -m 'feat: init blog'
 # 因为github默认将gh-pages开启
 git push origin master:gh-pages
 ```
+
 
 ---
 
@@ -526,6 +556,7 @@ git push origin master:master
 
 
 # 💬结语
+
 
 ---
 

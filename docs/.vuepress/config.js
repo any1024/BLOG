@@ -9,6 +9,12 @@ module.exports = {
   ],
   // 开启serverWorker
   serviceWorker: true,
+  serviceWorker: {
+     updatePopup: { 
+        message: "有新的内容.", 
+        buttonText: "刷新" 
+     }
+  },
   // 不支持ie  只支持主流浏览器
   evergreen: true,
   markdown: {
@@ -36,16 +42,10 @@ module.exports = {
     // 创建文章的时间格式, 不设则不显示 可选 [yyyy-MM-dd HH:mm:ss]
     date_format: 'yyyy-MM-dd',
     nav: [
-      { text: 'Home', link: '/blog/', root: true },
+      { text: 'Home', link: '/live/', root: true },
       { text: 'TAGS', link: '/tags/', tags: true },
-      { text: '关于我', link: '/about/' },
       { text: 'github', link: 'https://github.com/Overcase' },
-    ],
-    serviceWorker: {
-       updatePopup: { 
-          message: "New content is available.", 
-          buttonText: "Refresh" 
-       }
-     }
+      { text: '关于我', link: '/about/' },
+    ]
   }
 }

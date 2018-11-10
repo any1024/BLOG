@@ -14,10 +14,10 @@ actionLink: /blog/ # action 链接
 #   - text: action2
 #     link: /yubisaki/usage2.html
 features:
-  - title: 这是什么
-    details: 一个基于 vuepress 的博客主题, 它基于 vuepress 提供的默认主题
-  - title: 有哪些特点
-    details: 提供文章列表, 文章分页, 文章详情, github card, 自定义活动页 layout 等等功能
-  - title: TODO
-    details: 标签云, TAG ARCHIVE, 一些脚本, 一些 开箱即用的layout
+  - title: 喜欢折腾
+    details: 前端爱好者，虽然折腾的时候很累，但就是喜欢折腾成功后的那种满足感
+  - title: 保持自律
+    details: 无论如何，不能放弃自己
+  - title: 热爱代码
+    details: 代码自成的一个世界，自己能在中遨游，迷恋解决一个个bug后那种充实的感觉
 ---
