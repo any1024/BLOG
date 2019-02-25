@@ -424,7 +424,7 @@ git push -f git@github.com:Overcase/BLOG.git master:gh-pages
 
 
 那么你就需要配置一下github的密钥
-[配置密钥]([[https://www.jianshu.com/p/f22d02c7d943](https://www.jianshu.com/p/f22d02c7d943))
+[配置密钥](https://www.jianshu.com/p/f22d02c7d943)
 
 配置完成后双击这个脚本 他就会自动将文件上传到github上
 

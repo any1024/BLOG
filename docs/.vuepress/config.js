@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Linhf',
-  description: '解决问题能获得巨大的满足感和成就感',
+  description: '永远不要忘记你的欲望和恐惧 ',
   theme: 'yubisaki',
   port: 8080,
   head: [
@@ -44,7 +44,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/live/', root: true },
       { text: 'TAGS', link: '/tags/', tags: true },
-      { text: 'github', link: 'https://github.com/Overcase' },
+      { text: 'GitHub', link: 'https://github.com/Overcase' },
       { text: '关于我', link: '/about/' },
     ]
   }
