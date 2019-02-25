@@ -2,13 +2,13 @@
 title: Css盒模型
 date: '2019-01-29 17:23:58'
 tag: 
-  - Css
+  - css
 meta:
   -
-    name: Css
+    name: css
     content: Css box model
   -
-    name: Css
+    name: css
     content: Css 盒模型
 ---
 本篇讲述了Css两种盒模型之间的差异

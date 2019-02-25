@@ -2,7 +2,7 @@
 title: DOM事件类型
 date: '2019-01-29 17:23:58'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
     name: Dom
@@ -33,7 +33,7 @@ meta:
   5. event.target
     1. 比如触发了click事件，那么event.target就是真正触发事件的元素
 6. 自定义事件
-```
+```javaScript
 var eve = new Event('custome'); //注册自定义事件 
 // ev 为dom节点
 ev.addEventListener('custome', function() {

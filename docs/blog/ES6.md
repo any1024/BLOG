@@ -2,7 +2,7 @@
 title: Es6数组API
 date: '2018-10-15 08:02:33'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
     name: Es6

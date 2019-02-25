@@ -2,7 +2,7 @@
 title: linux基本知识
 date: '2018-10-15 08:02:33'
 tag: 
-  - Linux
+  - linux
 meta:
   -
     name: Linux

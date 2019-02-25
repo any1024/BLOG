@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 ---
 title: 微信H5长按保存图片
 date: '2017-11-25 16:00:38'
 tag: 
-  - Vue
+  - vue
 meta:
   -
     name: weChat
@@ -14,9 +13,6 @@ meta:
 ---
 本篇给出了长按保存图片的demo
 <!-- more -->
-=======
-wechat
->>>>>>> bcdafcf6b36462359fc11c1f131f2f8b738b7e73
 
 ## 长按保存图片实例
  - 采用canvas画布画出页面中的元素

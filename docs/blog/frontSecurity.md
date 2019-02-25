@@ -2,7 +2,7 @@
 title: 前端常见攻击方式
 date: '2019-02-25 17:23:58'
 tag: 
-  - Safety
+  - safety
 meta:
   -
     name: Safety

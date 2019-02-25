@@ -2,13 +2,13 @@
 title: class继承__proto__差异
 date: '2018-11-0class5 11:02:33'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
-    name: class
+    name: javascript
     content: about class inherit difference function inherit
   -
-    name: class
+    name: javascript
     content: class继承
 ---
 关于class实现继承后__proto__属性与Function继承差异

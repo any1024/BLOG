@@ -2,7 +2,7 @@
 title: npm -dev 区别
 date: '2018-06-10 12:00:13'
 tag: 
-  - Npm
+  - npm
 meta:
   -
     name: Npm

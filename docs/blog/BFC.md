@@ -2,13 +2,13 @@
 title: BFC
 date: '2019-01-29 17:23:58'
 tag: 
-  - Css
+  - css
 meta:
   -
-    name: Css
+    name: css
     content: BFC principle
   -
-    name: Css
+    name: css
     content: BFC 实现原理
 ---
 本篇讲述了BFC的原理与形成

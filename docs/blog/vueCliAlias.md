@@ -2,7 +2,7 @@
 title: Vue.Cli 3.0 配置别名
 date: '2018-08-15 19:02:18'
 tag: 
-  - Vue
+  - vue
 meta:
   -
     name: Vue

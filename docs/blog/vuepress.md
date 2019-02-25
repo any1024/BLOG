@@ -310,7 +310,7 @@ npm uninstal vuepress
 ![image.png | left | 352x322](https://cdn.nlark.com/yuque/0/2018/png/167889/1541473117357-bd1fd78f-bcce-4752-a959-a2fb8f0850b1.png "")
 
 
-打开新建的md文件 在里面添加这些. 
+打开新建的md文件 在里面添加这些.  注意` tag` 内必须使用小写
 ```makedown
 ---
 title: 使用vuepress从0开始搭建博客

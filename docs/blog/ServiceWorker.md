@@ -2,7 +2,7 @@
 title: Service Worker 初步认识
 date: '2019-02-25 10:02:33'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
     name: Service Worker

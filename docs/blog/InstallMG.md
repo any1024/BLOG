@@ -3,7 +3,7 @@ MG---
 title: 安装 MongoDB
 date: '2018-07-25 17:23:58'
 tag: 
-  - Node
+  - node
 meta:
   -
     name: MongoDB

@@ -2,7 +2,7 @@
 title: 前端错误监控模式
 date: '2019-01-29 17:23:58'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
     name: JavaScript

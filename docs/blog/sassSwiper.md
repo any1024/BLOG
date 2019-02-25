@@ -3,7 +3,7 @@ Swiper---
 title: vue下库使用
 date: '2019-02-25 10:02:33'
 tag: 
-  - Library
+  - library
 meta:
   -
     name: Library

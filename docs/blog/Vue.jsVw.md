@@ -2,7 +2,7 @@
 title: Vue移动端适配解决方案
 date: '2018-08-25 16:00:38'
 tag: 
-  - Vue
+  - vue
 meta:
   -
     name: Vue

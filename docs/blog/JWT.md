@@ -2,7 +2,7 @@
 title: JWT使用 -- 转载
 date: '2019-02-25 16:00:38'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
     name: JavaScript

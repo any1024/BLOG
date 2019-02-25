@@ -2,13 +2,13 @@
 title: 前端通信之基础篇
 date: '2019-01-25 17:23:58'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
-    name: JavaScript
+    name: javascript
     content: browser signal communication
   -
-    name: JavaScript
+    name: javascript
     content: 前后端通信的几种机制
 ---
 本篇介绍了前后端通信的几种机制

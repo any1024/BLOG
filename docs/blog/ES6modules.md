@@ -2,7 +2,7 @@
 title: Es6模块化
 date: '2018-11-5 11:02:33'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
     name: Es6

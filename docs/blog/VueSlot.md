@@ -2,7 +2,7 @@
 title: Vue2.6.7 slot新语法
 date: '2019-02-25 16:00:38'
 tag: 
-  - Vue
+  - vue
 meta:
   -
     name: Vue

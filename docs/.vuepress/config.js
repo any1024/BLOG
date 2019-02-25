@@ -43,7 +43,7 @@ module.exports = {
     date_format: 'yyyy-MM-dd',
     nav: [
       { text: 'Home', link: '/live/', root: true },
-      { text: 'TAGS', link: '/tags/', tags: true },
+      { text: 'TAGS', link: '/tags/'},
       { text: 'GitHub', link: 'https://github.com/Overcase' },
       { text: '关于我', link: '/about/' },
     ]

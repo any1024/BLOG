@@ -2,7 +2,7 @@
 title: 观察订阅者模式
 date: '2019-01-25 17:23:58'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
     name: JavaScript

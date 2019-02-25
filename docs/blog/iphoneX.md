@@ -2,7 +2,7 @@
 title: iphone Medio query
 date: '2018-10-25 17:23:58'
 tag: 
-  - Css
+  - css
 meta:
   -
     name: medio query

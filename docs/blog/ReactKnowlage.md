@@ -2,7 +2,7 @@
 title: React基础知识
 date: '2019-02-25 10:02:33'
 tag: 
-  - React
+  - react
 meta:
   -
     name: React

@@ -2,7 +2,7 @@
 title: VueX基础案例
 date: '2017-11-25 16:00:38'
 tag: 
-  - Vue
+  - vue
 meta:
   -
     name: VueX

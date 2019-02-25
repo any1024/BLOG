@@ -2,7 +2,7 @@
 title: Node配置跨域
 date: '2019-01-15 08:02:33'
 tag: 
-  - Node
+  - node
 meta:
   -
     name: Node

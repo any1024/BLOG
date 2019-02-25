@@ -2,7 +2,7 @@
 title: 预加载图片函数
 date: '2019-02-20 17:23:58'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
     name: JavaScript

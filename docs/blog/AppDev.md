@@ -2,13 +2,13 @@
 title: 当下流行的几种app开发方式
 date: '2018-11-25 09:23:58'
 tag: 
-  - App
+  - app
 meta:
   -
-    name: App
+    name: app
     content: This article listed app development method
   -
-    name: App
+    name: app
     content: 本篇例举了当下流行的几种app开发，以及基本的优缺点
 ---
 本篇例举了当下流行的几种app开发，以及基本的优缺点

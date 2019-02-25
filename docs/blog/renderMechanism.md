@@ -2,7 +2,7 @@
 title: js渲染机制
 date: '2018-10-25 17:23:58'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
     name: JavaScript

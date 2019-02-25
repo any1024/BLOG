@@ -2,7 +2,7 @@
 title: 页面性能类
 date: '2019-02-20 17:23:58'
 tag: 
-  - JavaScript
+  - javascript
 meta:
   -
     name: JavaScript
@@ -31,7 +31,7 @@ meta:
     2. Etag 哈希值
 4. 利用CDN
 5. 预解析CDN
-```
+```javaScript
 1. 用meta信息来告知浏览器, 当前页面要做DNS预解析:<meta http-equiv="x-dns-prefetch-control" content="on" />
 2. 在页面header中使用link标签来强制对DNS预解析: <link rel="dns-prefetch" href="http://bdimg.share.baidu.com" />
 ```

@@ -2,13 +2,13 @@
 title: 前端测试篇
 date: '2019-01-25 17:23:58'
 tag: 
-  - Test
+  - test
 meta:
   -
-    name: Test
+    name: test
     content: Test preliminary understanding
   -
-    name: Test
+    name: test
     content: 初步认识前端测试
 ---
 本篇例举了前端测试的一些工具
