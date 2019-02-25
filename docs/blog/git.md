@@ -1,6 +1,6 @@
 ---
 title: git入门教程
-date: '2018-11-8'
+date: '2018-11-08'
 tag: 
   - git
 meta:

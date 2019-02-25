@@ -1,6 +1,6 @@
 ---
 title: 使用vuepress从0开始搭建博客
-date: '2018-11-6 11:02:33'
+date: '2018-11-06 11:02:33'
 tag: 
   - vuepress
 meta:
