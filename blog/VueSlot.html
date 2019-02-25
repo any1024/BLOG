@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue2.6.7 slot新语法 | Linhf</title>
+    <meta name="description" content="永远不要忘记你的欲望和恐惧 ">
+    <link rel="icon" href="/logo.png">
+    <meta name="Vue" content="This article show example for official demo"><meta name="Vue" content="slot新语法">
+    <link rel="preload" href="/assets/css/styles.7fa88ce5.css" as="style"><link rel="preload" href="/assets/js/app.7fa88ce5.js" as="script"><link rel="preload" href="/assets/css/styles.7fa88ce5.css" as="style"><link rel="preload" href="/assets/js/22.9be6e08d.js" as="script"><link rel="prefetch" href="/assets/css/1.styles.eeb43671.css"><link rel="prefetch" href="/assets/css/2.styles.50882dc4.css"><link rel="prefetch" href="/assets/js/1.eeb43671.js"><link rel="prefetch" href="/assets/js/10.decc3d39.js"><link rel="prefetch" href="/assets/js/11.0a3b1f05.js"><link rel="prefetch" href="/assets/js/12.b6be7e7b.js"><link rel="prefetch" href="/assets/js/13.44149539.js"><link rel="prefetch" href="/assets/js/14.99a5558f.js"><link rel="prefetch" href="/assets/js/15.0ac7724e.js"><link rel="prefetch" href="/assets/js/16.1691e973.js"><link rel="prefetch" href="/assets/js/17.ae866f11.js"><link rel="prefetch" href="/assets/js/18.8cafb262.js"><link rel="prefetch" href="/assets/js/19.933374fc.js"><link rel="prefetch" href="/assets/js/2.50882dc4.js"><link rel="prefetch" href="/assets/js/20.f4444e8f.js"><link rel="prefetch" href="/assets/js/21.503eae05.js"><link rel="prefetch" href="/assets/js/23.29ea216f.js"><link rel="prefetch" href="/assets/js/24.c50c9b98.js"><link rel="prefetch" href="/assets/js/25.7dc290ba.js"><link rel="prefetch" href="/assets/js/26.33e4236f.js"><link rel="prefetch" href="/assets/js/27.150a023a.js"><link rel="prefetch" href="/assets/js/28.facbdbed.js"><link rel="prefetch" href="/assets/js/29.2c9fc6a3.js"><link rel="prefetch" href="/assets/js/3.852f1526.js"><link rel="prefetch" href="/assets/js/30.98eabcc3.js"><link rel="prefetch" href="/assets/js/31.0fb90340.js"><link rel="prefetch" href="/assets/js/32.c3cc4dd3.js"><link rel="prefetch" href="/assets/js/33.6fdaef1e.js"><link rel="prefetch" href="/assets/js/34.8cd6cd5e.js"><link rel="prefetch" href="/assets/js/35.1b190fa1.js"><link rel="prefetch" href="/assets/js/36.59a11581.js"><link rel="prefetch" href="/assets/js/37.3adea853.js"><link rel="prefetch" href="/assets/js/38.b8d84bbe.js"><link rel="prefetch" href="/assets/js/39.d9d3217b.js"><link rel="prefetch" href="/assets/js/4.c5af5a6d.js"><link rel="prefetch" href="/assets/js/40.3d776593.js"><link rel="prefetch" href="/assets/js/41.295d7d85.js"><link rel="prefetch" href="/assets/js/42.22e8987a.js"><link rel="prefetch" href="/assets/js/43.2fdc4cc1.js"><link rel="prefetch" href="/assets/js/44.50360408.js"><link rel="prefetch" href="/assets/js/5.bdce62ca.js"><link rel="prefetch" href="/assets/js/6.3a83f800.js"><link rel="prefetch" href="/assets/js/7.bfa3b351.js"><link rel="prefetch" href="/assets/js/8.a46fdee8.js"><link rel="prefetch" href="/assets/js/9.57d36df0.js">
+    <link rel="stylesheet" href="/assets/css/1.styles.eeb43671.css"><link rel="stylesheet" href="/assets/css/2.styles.50882dc4.css"><link rel="stylesheet" href="/assets/css/styles.7fa88ce5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="wrap"><div class="theme-container container no-sidebar"><header class="navbar"><div class="nav-header"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" class="logo"> <span class="site-name can-hide">
+        Linhf
+      </span></a> <nav class="nav-links can-hide"><div class="nav-item"><a href="/live/" class="nav-link">Home</a></div><div class="nav-item"><a href="/tags/" class="nav-link">TAGS</a></div><div class="nav-item"><a href="https://github.com/Overcase" target="_blank" rel="noopener noreferrer" class="nav-link">GitHub</a></div><div class="nav-item"><a href="/about/" class="nav-link">关于我</a></div> <!----></nav> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div></div></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/live/" class="nav-link">Home</a></div><div class="nav-item"><a href="/tags/" class="nav-link">TAGS</a></div><div class="nav-item"><a href="https://github.com/Overcase" target="_blank" rel="noopener noreferrer" class="nav-link">GitHub</a></div><div class="nav-item"><a href="/about/" class="nav-link">关于我</a></div> <!----></nav> <!----></div> <div class="page-container"><div><div class="page card"><div class="content-header"><h1 class="page-title" style="color:#ac3e40;">
+        Vue2.6.7 slot新语法
+      </h1> <span class="page-timestamp">2019-02-25</span></div> <div class="content"><p>本篇贴出了slot新语法 官法demo
+</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>有时我们需要多个插槽。例如对于一个带有如下模板的 <span class="token operator">&lt;</span>base<span class="token operator">-</span>layout<span class="token operator">&gt;</span> 组件：
+
+<span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;container&quot;</span><span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>header<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> 我们希望把页头放这里 <span class="token operator">--</span><span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>header<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>main<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> 我们希望把主要内容放这里 <span class="token operator">--</span><span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>main<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>footer<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> 我们希望把页脚放这里 <span class="token operator">--</span><span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>footer<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+对于这样的情况，<span class="token operator">&lt;</span>slot<span class="token operator">&gt;</span> 元素有一个特殊的特性：name。这个特性可以用来定义额外的插槽：
+
+<span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;container&quot;</span><span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>header<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>slot name<span class="token operator">=</span><span class="token string">&quot;header&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>slot<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>header<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>main<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>slot<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>slot<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>main<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>footer<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>slot name<span class="token operator">=</span><span class="token string">&quot;footer&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>slot<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>footer<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+一个不带 name 的 <span class="token operator">&lt;</span>slot<span class="token operator">&gt;</span> 出口会带有隐含的名字“<span class="token keyword">default</span>”。
+
+在向具名插槽提供内容的时候，我们可以在一个 <span class="token operator">&lt;</span>template<span class="token operator">&gt;</span> 元素上使用 v<span class="token operator">-</span>slot 指令，并以 v<span class="token operator">-</span>slot 的参数的形式提供其名称：
+
+<span class="token operator">&lt;</span>base<span class="token operator">-</span>layout<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>template v<span class="token operator">-</span>slot<span class="token punctuation">:</span>header<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>h1<span class="token operator">&gt;</span>Here might be a page title<span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+
+  <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span><span class="token constant">A</span> paragraph <span class="token keyword">for</span> the main content<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>And another one<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+
+  <span class="token operator">&lt;</span>template v<span class="token operator">-</span>slot<span class="token punctuation">:</span>footer<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>Here's some contact info<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>base<span class="token operator">-</span>layout<span class="token operator">&gt;</span>
+
+</code></pre></div></div> <!----> <!----></div> <!----></div> <!----></div> <div class="tool-group"><!----></div></div> <!----></div> <div class="background-mask" style="background:#f6f6f6;"></div></div></div>
+    <script src="/assets/js/22.9be6e08d.js" defer></script><script src="/assets/js/app.7fa88ce5.js" defer></script>
+  </body>
+</html>

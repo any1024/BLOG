@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Node常用库 | Linhf</title>
+    <meta name="description" content="永远不要忘记你的欲望和恐惧 ">
+    <link rel="icon" href="/logo.png">
+    <meta name="Node" content="Node open child process to crawl data"><meta name="Node" content="puppeteer">
+    <link rel="preload" href="/assets/css/styles.7fa88ce5.css" as="style"><link rel="preload" href="/assets/js/app.7fa88ce5.js" as="script"><link rel="preload" href="/assets/css/styles.7fa88ce5.css" as="style"><link rel="preload" href="/assets/js/35.1b190fa1.js" as="script"><link rel="prefetch" href="/assets/css/1.styles.eeb43671.css"><link rel="prefetch" href="/assets/css/2.styles.50882dc4.css"><link rel="prefetch" href="/assets/js/1.eeb43671.js"><link rel="prefetch" href="/assets/js/10.decc3d39.js"><link rel="prefetch" href="/assets/js/11.0a3b1f05.js"><link rel="prefetch" href="/assets/js/12.b6be7e7b.js"><link rel="prefetch" href="/assets/js/13.44149539.js"><link rel="prefetch" href="/assets/js/14.99a5558f.js"><link rel="prefetch" href="/assets/js/15.0ac7724e.js"><link rel="prefetch" href="/assets/js/16.1691e973.js"><link rel="prefetch" href="/assets/js/17.ae866f11.js"><link rel="prefetch" href="/assets/js/18.8cafb262.js"><link rel="prefetch" href="/assets/js/19.933374fc.js"><link rel="prefetch" href="/assets/js/2.50882dc4.js"><link rel="prefetch" href="/assets/js/20.f4444e8f.js"><link rel="prefetch" href="/assets/js/21.503eae05.js"><link rel="prefetch" href="/assets/js/22.9be6e08d.js"><link rel="prefetch" href="/assets/js/23.29ea216f.js"><link rel="prefetch" href="/assets/js/24.c50c9b98.js"><link rel="prefetch" href="/assets/js/25.7dc290ba.js"><link rel="prefetch" href="/assets/js/26.33e4236f.js"><link rel="prefetch" href="/assets/js/27.150a023a.js"><link rel="prefetch" href="/assets/js/28.facbdbed.js"><link rel="prefetch" href="/assets/js/29.2c9fc6a3.js"><link rel="prefetch" href="/assets/js/3.852f1526.js"><link rel="prefetch" href="/assets/js/30.98eabcc3.js"><link rel="prefetch" href="/assets/js/31.0fb90340.js"><link rel="prefetch" href="/assets/js/32.c3cc4dd3.js"><link rel="prefetch" href="/assets/js/33.6fdaef1e.js"><link rel="prefetch" href="/assets/js/34.8cd6cd5e.js"><link rel="prefetch" href="/assets/js/36.59a11581.js"><link rel="prefetch" href="/assets/js/37.3adea853.js"><link rel="prefetch" href="/assets/js/38.b8d84bbe.js"><link rel="prefetch" href="/assets/js/39.d9d3217b.js"><link rel="prefetch" href="/assets/js/4.c5af5a6d.js"><link rel="prefetch" href="/assets/js/40.3d776593.js"><link rel="prefetch" href="/assets/js/41.295d7d85.js"><link rel="prefetch" href="/assets/js/42.22e8987a.js"><link rel="prefetch" href="/assets/js/43.2fdc4cc1.js"><link rel="prefetch" href="/assets/js/44.50360408.js"><link rel="prefetch" href="/assets/js/5.bdce62ca.js"><link rel="prefetch" href="/assets/js/6.3a83f800.js"><link rel="prefetch" href="/assets/js/7.bfa3b351.js"><link rel="prefetch" href="/assets/js/8.a46fdee8.js"><link rel="prefetch" href="/assets/js/9.57d36df0.js">
+    <link rel="stylesheet" href="/assets/css/1.styles.eeb43671.css"><link rel="stylesheet" href="/assets/css/2.styles.50882dc4.css"><link rel="stylesheet" href="/assets/css/styles.7fa88ce5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="wrap"><div class="theme-container container no-sidebar"><header class="navbar"><div class="nav-header"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" class="logo"> <span class="site-name can-hide">
+        Linhf
+      </span></a> <nav class="nav-links can-hide"><div class="nav-item"><a href="/live/" class="nav-link">Home</a></div><div class="nav-item"><a href="/tags/" class="nav-link">TAGS</a></div><div class="nav-item"><a href="https://github.com/Overcase" target="_blank" rel="noopener noreferrer" class="nav-link">GitHub</a></div><div class="nav-item"><a href="/about/" class="nav-link">关于我</a></div> <!----></nav> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div></div></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/live/" class="nav-link">Home</a></div><div class="nav-item"><a href="/tags/" class="nav-link">TAGS</a></div><div class="nav-item"><a href="https://github.com/Overcase" target="_blank" rel="noopener noreferrer" class="nav-link">GitHub</a></div><div class="nav-item"><a href="/about/" class="nav-link">关于我</a></div> <!----></nav> <!----></div> <div class="page-container"><div><div class="page card"><div class="content-header"><h1 class="page-title" style="color:#ac3e40;">
+        Node常用库
+      </h1> <span class="page-timestamp">2018-10-15</span></div> <div class="content"><p>本篇讲述了Node开启子进程使用puppeteer爬取数据
+</p> <ol><li>开启子进程页面</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> cp <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'child_process'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> resolve <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span>
+
+<span class="token punctuation">;</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+
+<span class="token comment">//子进程运行路径</span>
+
+<span class="token keyword">const</span> script <span class="token operator">=</span> <span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'../crawler/trailer-list'</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 开启子进程</span>
+
+<span class="token keyword">const</span> child <span class="token operator">=</span> cp<span class="token punctuation">.</span><span class="token function">fork</span><span class="token punctuation">(</span>script<span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token keyword">let</span> invoked <span class="token operator">=</span> <span class="token boolean">false</span>
+
+child<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'error'</span><span class="token punctuation">,</span> err <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>invoked<span class="token punctuation">)</span> <span class="token keyword">return</span>
+  
+  invoked <span class="token operator">=</span> <span class="token boolean">true</span>
+  
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+child<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'exit'</span><span class="token punctuation">,</span> code <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>invoked<span class="token punctuation">)</span> <span class="token keyword">return</span>
+  
+  invoked <span class="token operator">=</span> <span class="token boolean">false</span>
+  
+  <span class="token keyword">let</span> err <span class="token operator">=</span> code <span class="token operator">===</span> <span class="token number">0</span> <span class="token operator">?</span> <span class="token keyword">null</span><span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">'ExitCode: '</span> <span class="token operator">+</span> code<span class="token punctuation">)</span>
+  
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+  
+child<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'message'</span><span class="token punctuation">,</span> data <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+
+  <span class="token keyword">let</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> data
+  
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div><ol><li>爬取数据页面</li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> url <span class="token operator">=</span> <span class="token template-string"><span class="token string">`https://movie.douban.com/tag/#/?sort=R&amp;range=6,10&amp;tags=`</span></span>
+
+<span class="token keyword">const</span> puppeteer <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'puppeteer'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">sleep</span> <span class="token operator">=</span> time <span class="token operator">=&gt;</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span> resolve <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+
+<span class="token function">setTimeout</span><span class="token punctuation">(</span>resolve<span class="token punctuation">,</span> time<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token punctuation">;</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Start visit the target page'</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 创建一个浏览器 设置非沙箱模式</span>
+
+<span class="token keyword">const</span> browser <span class="token operator">=</span> <span class="token keyword">await</span> puppeteer<span class="token punctuation">.</span><span class="token function">launch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+
+args<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'--no-sandbox'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+dumpio<span class="token punctuation">:</span> <span class="token boolean">false</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 创建一个页面</span>
+
+<span class="token keyword">const</span> page <span class="token operator">=</span> <span class="token keyword">await</span> browser<span class="token punctuation">.</span><span class="token function">newPage</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 给页面接上网址</span>
+
+<span class="token keyword">await</span> page<span class="token punctuation">.</span><span class="token function">goto</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+
+waitUntil<span class="token punctuation">:</span> <span class="token string">'networkidle2'</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 等待3秒页面加载</span>
+
+<span class="token keyword">await</span> <span class="token function">sleep</span><span class="token punctuation">(</span><span class="token number">3000</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 找到页面中.more这个元素</span>
+
+<span class="token keyword">await</span> page<span class="token punctuation">.</span><span class="token function">waitForSelector</span><span class="token punctuation">(</span><span class="token string">'.more'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+<span class="token keyword">await</span> <span class="token function">sleep</span><span class="token punctuation">(</span><span class="token number">3000</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 等待3秒后点击</span>
+
+<span class="token keyword">await</span> page<span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token string">'.more'</span><span class="token punctuation">)</span>
+
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 根据dom节点爬取数据</span>
+
+<span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token keyword">await</span> page<span class="token punctuation">.</span><span class="token function">evaluate</span><span class="token punctuation">(</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+
+<span class="token keyword">var</span> $ <span class="token operator">=</span> window<span class="token punctuation">.</span>$
+
+<span class="token keyword">var</span> items <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'.list-wp a'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">var</span> links <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+<span class="token keyword">if</span><span class="token punctuation">(</span>items<span class="token punctuation">.</span>length <span class="token operator">&gt;=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+  items<span class="token punctuation">.</span><span class="token function">each</span><span class="token punctuation">(</span><span class="token punctuation">(</span>index<span class="token punctuation">,</span> item<span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  
+  <span class="token keyword">let</span> it <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span>
+  
+  <span class="token keyword">let</span> doubanId <span class="token operator">=</span> it<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">data</span><span class="token punctuation">(</span><span class="token string">'id'</span><span class="token punctuation">)</span>
+  
+  <span class="token keyword">let</span> title <span class="token operator">=</span> it<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'.title'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">text</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  
+  <span class="token keyword">let</span> rate <span class="token operator">=</span> it<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'.rate'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">text</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  
+  <span class="token keyword">let</span> poster <span class="token operator">=</span> it<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'img'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'src'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token string">'s_ratio'</span><span class="token punctuation">,</span> <span class="token string">'l_ratio'</span><span class="token punctuation">)</span>
+  
+    links<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      doubanId<span class="token punctuation">,</span>
+      title<span class="token punctuation">,</span>
+      rate<span class="token punctuation">,</span>  
+      poster
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token punctuation">}</span>
+
+  <span class="token keyword">return</span> links
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 关闭浏览器</span>
+
+<span class="token keyword">await</span> browser<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 传输数据</span>
+
+process<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>result<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 退出子进程</span>
+
+process<span class="token punctuation">.</span><span class="token function">exit</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div></div> <!----> <div class="content page-nav"><p class="inner"><span class="prev">
+          ← <a href="/blog/Node%20use%20package.html" class="prev">
+            Node常用库
+          </a></span> <span class="next"><a href="/blog/Vue.jsVw.html">
+            Vue移动端适配解决方案
+          </a> →
+        </span></p></div></div> <!----></div> <!----></div> <div class="tool-group"><!----></div></div> <!----></div> <div class="background-mask" style="background:#f6f6f6;"></div></div></div>
+    <script src="/assets/js/35.1b190fa1.js" defer></script><script src="/assets/js/app.7fa88ce5.js" defer></script>
+  </body>
+</html>
