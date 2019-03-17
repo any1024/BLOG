@@ -3661,17 +3661,19 @@ markdown-it-emoji@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/markdown-it-emoji/-/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
 
-markdown-it-imsize@^2.0.1:
+markdown-it-imsize@2.0.1:
   version "2.0.1"
-  resolved "https://registry.npmjs.org/markdown-it-imsize/-/markdown-it-imsize-2.0.1.tgz#cca0427905d05338a247cb9ca9d968c5cddd5170"
+  resolved "https://registry.yarnpkg.com/markdown-it-imsize/-/markdown-it-imsize-2.0.1.tgz#cca0427905d05338a247cb9ca9d968c5cddd5170"
+  integrity sha1-zKBCeQXQUziiR8ucqdloxc3dUXA=
 
 markdown-it-table-of-contents@^0.4.0:
   version "0.4.3"
   resolved "https://registry.npmjs.org/markdown-it-table-of-contents/-/markdown-it-table-of-contents-0.4.3.tgz#6453925a76e49b9b3d9569a0d89f1c2168b46982"
 
-markdown-it-task-lists@^2.1.1:
+markdown-it-task-lists@2.1.1:
   version "2.1.1"
-  resolved "https://registry.npmjs.org/markdown-it-task-lists/-/markdown-it-task-lists-2.1.1.tgz#f68f4d2ac2bad5a2c373ba93081a1a6848417088"
+  resolved "https://registry.yarnpkg.com/markdown-it-task-lists/-/markdown-it-task-lists-2.1.1.tgz#f68f4d2ac2bad5a2c373ba93081a1a6848417088"
+  integrity sha512-TxFAc76Jnhb2OUu+n3yz9RMu4CwGfaT788br6HhEDlvWfdeJcLUsxk1Hgw2yJio0OXsxv7pyIPmvECY7bMbluA==
 
 markdown-it@^8.4.1:
   version "8.4.2"
@@ -5920,9 +5922,10 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-theme-yubisaki@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.npmjs.org/vuepress-theme-yubisaki/-/vuepress-theme-yubisaki-3.0.3.tgz#2ef251513d64b6b9acee601b41db89033fc283b8"
+vuepress-theme-yubisaki@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-yubisaki/-/vuepress-theme-yubisaki-3.0.2.tgz#80ebbb488cc0ca734f652a53b4e77d2e1788306f"
+  integrity sha512-lEuUySVK0fVlwHq8vSGZlu0eCdrAXSWntIW4jRHeGYiCFAy50YG440WZd+kRpOEcY26tPIdALzGtpNWRy3s2ew==
   dependencies:
     autosize "^4.0.2"
     axios "^0.18.0"
@@ -5932,9 +5935,10 @@ vuepress-theme-yubisaki@^3.0.3:
     node-polyglot "^2.3.0"
     raw-loader "^0.5.1"
 
-vuepress@^0.14.4:
+vuepress@0.14.4:
   version "0.14.4"
-  resolved "https://registry.npmjs.org/vuepress/-/vuepress-0.14.4.tgz#fea77daa840b11429564bdddde3653bbbec4affb"
+  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-0.14.4.tgz#fea77daa840b11429564bdddde3653bbbec4affb"
+  integrity sha512-AUZ+6wL1uXapX+I7h4EeXQ2Gcxaars7Ys5K8EUVuCgyDB0v36eoQWnoAVpNpMXL7kPCkVSq8DUtJQtOtHluSXQ==
   dependencies:
     "@babel/core" "7.0.0-beta.47"
     "@vue/babel-preset-app" "3.0.0-beta.11"
