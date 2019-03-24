@@ -1,0 +1,4 @@
+language: shell
+sudo: required
+install: ./delay.sh
+script: ./codingDelay.sh
