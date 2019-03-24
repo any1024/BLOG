@@ -1,4 +1,6 @@
 language: shell
 sudo: required
-install: ./delay.sh
-script: ./codingDelay.sh
+install: npm install
+script: 
+  - ./delay.sh
+  - ./codingDelay.sh

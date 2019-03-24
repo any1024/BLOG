@@ -6,7 +6,7 @@ tag:
 meta:
   -
     name: test
-    content: getting Started Travis
+    content: getting Started Travis CI
   -
     name: test
     content: Travis 入门教程
