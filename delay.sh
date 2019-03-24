@@ -20,7 +20,8 @@ echo 'blog.linhuifeng.com' > CNAME
 
 
 git init
-git add -A
+git remote add origin https://github.com/Overcase/BLOG.git
+git add .
 git commit -m 'deploy'
 
 
@@ -30,4 +31,4 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>  使用ssh
 # 请修改成自己仓库的地址  可以将ssh传输改成 https
-git push -f git@github.com:Overcase/BLOG.git master:gh-pages
+# git push -f git@github.com:Overcase/BLOG.git master:gh-pages
