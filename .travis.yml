@@ -2,12 +2,6 @@ language: node_js
 node_js:
     - '10.15.3'
 sudo: required
-install: npm install
+install: yarn
 script: 
-  - ./delay.sh
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  on:
-    branch: master
+  - ./test.sh

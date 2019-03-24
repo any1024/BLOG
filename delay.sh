@@ -8,7 +8,7 @@ set -e
 
 
 # 生成静态文件
-npm run docs:build
+yarn run docs:build
 
 
 # 进入生成的文件夹
@@ -20,7 +20,7 @@ echo 'blog.linhuifeng.com' > CNAME
 
 
 git init
-git remote add origin https://github.com/Overcase/BLOG.git
+git remote add origin git@github.com:Overcase/BLOG.git master:gh-pages
 git add .
 git commit -m 'deploy'
 
