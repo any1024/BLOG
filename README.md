@@ -3,7 +3,7 @@
 <a name="a6e78492"></a>
 # ❤️简介
 
-个人博客项目源文件，基础VuePress1.0搭建而成，使用[Yubisak](https://github.com/Yubisaki/vuepress-theme-yubisaki)主题<br />博客地址：[https://blog.linhuifeng.com](https://blog.linhuifeng.com/)
+个人博客项目源文件，基于VuePress1.0搭建而成，使用[Yubisak](https://github.com/Yubisaki/vuepress-theme-yubisaki)主题<br />博客地址：[https://blog.linhuifeng.com](https://blog.linhuifeng.com/)
 
 <a name="fc22838b"></a>
 # 🤔初心
