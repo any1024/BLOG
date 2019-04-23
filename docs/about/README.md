@@ -7,5 +7,5 @@ hidden: true # 设置是否在文章列表中显示
 ## front-end friend
 - [常仔](https://52chinaweb.com/)
 - [小磊]
-- [小红]
+- [小红](http://blog.wxhboy.cn)
 - [王蓥杰](https://52admin.net)
