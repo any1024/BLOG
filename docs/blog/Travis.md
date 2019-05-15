@@ -103,11 +103,12 @@ script阶段结束以后，还可以设置[通知步骤](https://docs.travis-ci.
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  github_token: $GITHUB_TOKEN # Set in trasvis-ci.org dashboard
   on:
 >    branch: master
 
 其他部署方式，请看[官方文档](https://docs.travis-ci.com/user/deployment/)。
+Thanks
 
 
 
